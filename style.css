@@ -87,7 +87,6 @@ width:100%;
 }
 .container{
     max-width: 1200px;
-    padding-left: 50px;
    margin:auto;
   
 }
@@ -108,6 +107,7 @@ h1:hover{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
    place-items: center;
+     margin-left: 51.5px;
    margin-bottom:40px;
 }
 .category{
