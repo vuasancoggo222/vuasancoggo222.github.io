@@ -1,0 +1,292 @@
+html{
+    scroll-behavior: smooth;
+    font-size:100%;
+    font-family: tahoma,sans-serif;
+}
+body{
+}
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 1920px;
+   margin:0 auto;
+
+}
+header{
+  
+}
+.header-top{
+    background-color: #353535;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+.header-top a{
+    color: #eddfc1;
+    text-decoration: none;
+    padding-left: 30px;
+    text-transform: uppercase;
+    font-size:13px;
+    
+}
+.header-top a:hover{
+color:#f21318;
+cursor: pointer;
+}
+.logo{
+width:100px;
+height: 65px;
+display: flex;
+align-items: start;
+position: relative;
+top: 25px;
+left: 50px;
+}
+.header-main{
+background-color: #020202;
+padding: 10px 0;
+}
+nav{
+  display:flex;
+  justify-content:flex-end;
+  padding-right: 60px;
+  position: relative;
+  bottom:32px;
+}
+nav ul{
+}
+nav ul li{
+    display: inline-block;
+    padding-left: 30px;
+  
+}
+nav ul li a{
+    font-size:16px;
+  color:#eddfc1;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:#f21318;
+}
+.swiper {
+width: 1500px;
+height: 500px;
+  }
+#swiper2{
+    width:1200px  !important;
+   
+}
+.slider{
+height:500px;
+}
+.img-slider{
+width:100%;
+}
+.container{
+    max-width: 1200px;
+    padding-left: 50px;
+   margin:auto;
+  
+}
+h1{
+    color:#0066CC;
+    text-transform: uppercase;
+    font-size:22px;
+    font-weight:initial;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight:bold;
+}
+h1:hover{
+    
+    color: #f21318;
+}
+.category-product{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   place-items: center;
+   margin-bottom:40px;
+}
+.category{
+    width:350px;
+}
+.category span{
+  
+  font-size:20px;
+  color:#0066CC;
+  font-weight:500;
+}
+.category span:hover{
+    cursor: pointer;
+    color: #f21318;
+}
+
+.product img{
+ width: 300px;
+ height: 450px;
+ border-radius:15px;
+  margin-top: 30px;
+  overflow: hidden;
+  margin-bottom:25px;
+}
+.product img:hover{
+    transform:scale(1.02);
+    border: 5px solid #3366CC;
+}
+.category button{
+    font-size:20px;
+    width:125px;
+  height:35px;
+  border-radius:4px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #6633CC;
+  color:#ccc;
+  margin-left: 8px;
+  
+}
+.category button:hover{
+    transform:scale(1.02);
+    background-color:#CC00CC;
+    color:#FFCC33;
+    cursor:pointer;
+   
+}
+h1:hover{
+    cursor: pointer;
+}
+#category-product {
+  
+}
+footer{
+    background-color: #353535;
+    text-align: center;
+    padding:10px 0;
+}
+
+footer a{
+    color:#eddfc1;
+    text-decoration: none;
+    
+}
+.customer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   place-items: center; 
+   margin-bottom: 40px;
+}
+.customer-informations{
+   
+}
+.customer-img{
+    width: 100px;
+    height: 100px;
+    background: white;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    --border-radius: 50px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    
+}
+.customer-img:hover{
+    transform:scale(1.02);
+    border: 3px solid #3366CC;
+}
+.aboutus{
+    margin-bottom: 40px;
+}
+.avatar{
+    width: 240px;
+    height: 240px;
+    background: white;
+    -moz-border-radius: 120px;
+    -webkit-border-radius: 120px;
+    --border-radius: 120px;
+    border-radius: 120px;
+    border: 1px solid black;
+margin: auto;
+}
+.avatar:hover{
+    transform:scale(1.02);
+    border: 3px solid #3366CC;
+    border-radius:0px;
+}
+.description{
+    margin-top:20px;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:16px;
+}
+.shop{
+    margin-bottom: 40px;
+}
+.shop-info{
+background-color: #3366CC;
+width:71.3%;
+height:40px;
+text-align:center;
+margin: auto;
+border-radius:5px;
+}
+.shop-address{
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size:110%;
+    color:#fff;
+}
+.shop-info:hover{
+    background-color:#FFCC33;
+    cursor: pointer;
+}
+.shop-info p:hover{
+    color:black;
+}
+.contact{
+    margin-left: 365px;
+    margin-bottom: 40px;
+}
+.contact a{
+  padding-left: 45px;
+}
+.contact a i:hover{
+    transform:rotate(30deg);
+}
+.button {
+    display: inline-block;
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  .button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+  .button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  .button:active {
+    background-color: #555;
+  }
+  .button.show {
+    opacity: 1;
+    visibility: visible;
+  }
