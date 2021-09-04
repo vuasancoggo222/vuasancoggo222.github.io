@@ -84,6 +84,11 @@ height:500px;
 }
 .img-slider{
 width:100%;
+    overflow:hidden;
+transition: 0.5s linear;
+}
+.img-slider:hover{
+    transform: scale(1.1);
 }
 .container{
     max-width: 1200px;
@@ -129,12 +134,13 @@ h1:hover{
  height: 450px;
  border-radius:15px;
   margin-top: 30px;
+     transition: 0.3s linear;
   overflow: hidden;
   margin-bottom:25px;
 }
 .product img:hover{
-    transform:scale(1.02);
-    border: 5px solid #3366CC;
+    transform:scale(1.04);
+    border: 3px solid #3366CC;
 }
 .category button{
     font-size:20px;
